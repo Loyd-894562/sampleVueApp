@@ -1,9 +1,13 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import SampleComponent from './components/SampleComponent.vue'
-</script>
 
+<script setup>
+  import Navigation from './components/Navigation.vue'
+</script>
 <template>
-  <HelloWorld />
-  <!-- <SampleComponent /> -->
+
+  <div>
+    <Navigation />
+    
+    <br>
+    <RouterView />
+  </div>
 </template>
